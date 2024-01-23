@@ -1,0 +1,153 @@
+/* General setup */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll; overflow-x: hidden;
+}
+
+*{
+  text-align: center;
+}
+
+p{
+  padding: 0 5rem;
+}
+
+ol li{
+  text-align: left;
+}
+
+.sidebar ul li, h3{
+  text-align: left;
+}
+
+.sidebar{
+  margin-left: 2rem;
+}
+
+/* typography */
+#directions, #contact{
+  position: relative;
+  color: white;
+}
+
+/* header layout */
+
+.logo {
+    height: 150px;
+    margin-top: 2rem;
+    margin-right: 75rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content:right;
+  align-items: center;
+  position: relative;
+  bottom: 11rem;
+  
+}
+
+.navbar li a:hover, .btn:hover{
+  background-color: #6C4702;
+  color: white;
+}
+
+nav ul li {
+    display: block;
+    list-style-type: none;
+    padding: 1rem;
+}
+
+nav ul li a{
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 18px;
+  color:black;
+}
+
+
+/* main layout */
+
+.backdrop{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    bottom: 13rem;
+}
+
+footer{
+  background-color: #DB920A;
+  height: 12rem;
+  top: 20rem;
+  width: 100%;
+}
+
+#contact{
+  text-align: left;
+  right: 35rem;
+  top: 3rem;
+}
+
+#directions{
+  text-align: right;
+  left: 34rem;
+  bottom: 6rem;
+}
+
+main{
+  position: relative;
+  bottom: 5rem;
+}
+
+#title{
+  z-index: 1;
+  position: absolute;
+  left: 45%;
+  margin-top: 5rem;
+  background-color: black;
+  padding: 1rem 3rem;
+  color: white;
+}
+
+.info h4{
+  padding: 1rem;
+}
+
+/* dropdown menu */
+#course, #information{
+background: none;
+margin-top: 7rem;
+padding: 0;
+height: 10rem;
+}
+
+#information{
+  width: 7rem;
+}
+
+#course{
+  width: 10rem;
+}
+
+.btn{
+  background: none;
+  border-style: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dropdown-courses, .dropdown-information{
+  display: none;
+  position:relative;
+  z-index: 1;
+  background-color: white;
+  padding: 0;
+}
+
+.dropdown-courses{
+  width: 11rem;
+}

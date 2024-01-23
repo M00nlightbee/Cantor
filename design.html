@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0">
+
+        <title>Design Courses</title>
+        <link rel="stylesheet" href="styles/desktop.css">
+    </head>
+
+    <body>
+        <header>
+            <img class="logo" src="images/logo.jpg" alt="Cantor College Logo">
+            <nav>
+                <ul class="navbar">
+                    <li>
+                        <a target="_self" href="index.html">Home</a>
+                    </li>
+                    <ul id="course">
+                        <li class="btn" onclick="show_hide_courses()">
+                            Courses
+                        </li>
+                        <li class="dropdown-courses">
+                            <a target="_self" href="computing.html">Computing Courses</a>
+                        </li>
+                        <li class="dropdown-courses">
+                            <a target="_self" href="design.html">Design Courses</a>
+                        </li>
+                    </ul>
+                    <li>
+                        <a target="_self" href="facilities.html">Facilities</a>
+                    </li>
+                    <li>
+                        <a target="_self" href="learning-resources.html">Learning Resources</a>
+                    </li>
+                    <ul id="information">
+                        <li class="btn" onclick="show_hide_information()">
+                            Information
+                        </li>
+                        <li class="dropdown-information">
+                            <a target="_self" href="staff.html">For Staff</a>
+                        </li>
+                        <li class="dropdown-information">
+                            <a target="_self" href="student.html">For Student</a>
+                        </li>
+                    </ul>
+                    <li>
+                        <a target="_blank" href="business.html">Working with Business</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2 id="title">Design Courses</h2>
+                <img
+                    class="backdrop"
+                    src="images/design.jpg"
+                    alt="Design Courses Image by Mia Ganzenberg from Pixabay"
+                    title="Credit: Image by Mia Ganzenberg from Pixabay">
+
+                <form action="">
+                    <input
+                        type="search"
+                        name="q"
+                        placeholder="Search for course"
+                        aria-label="Search through Design Courses">
+                </form>
+
+                <p>
+                    The College is an internationally connected creative community of diverse
+                    disciplines housed under one roof. We shape our students' futures, preparing
+                    them to shape the world through applied knowledge and creativity.
+                </p>
+                <p>
+                    The College's art and design courses don't just train you, they promote
+                    alternative ways of thinking, making and communicating; they provide you with
+                    space, tools and inspiration to develop your creative practice and a clear
+                    career path. You'll get expert teaching from active practitioners and
+                    researchers who will encourage you to adopt innovative and resourceful
+                    approaches that both perceive and create opportunities for better lives.
+                </p>
+                <p>
+                    You will develop your creative practice whilst interacting with your peers in
+                    well-equipped studios, making and digital workshops. At the same time, you'll
+                    learn professional skills by working on applied briefs facilitated through our
+                    links with commercial clients, cultural institutions, businesses and
+                    organisations.
+                </p>
+            </section>
+
+            <button class="btnCourse">Show all</button>
+        </main>
+
+        <footer>
+            <div id="contact">
+                <h4>Contact Us</h4>
+                <p>
+                    Tel:(01321) 2340 235
+                    <br>
+                    Fax: (01321) 2340 236
+                    <br>
+                    Email: info@cantorcollege.ac.uk
+                </p>
+            </div>
+            <p>Owajigbana Blessing Uloyok &copy; 2024</p>
+            <div id="directions">
+                <h4>How to find us:</h4>
+                <address>
+                    Cantor College
+                    <br>
+                    Main Street
+                    <br>
+                    Sheffield
+                    <br>
+                    SC4 2BB
+                </address>
+            </div>
+        </footer>
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
